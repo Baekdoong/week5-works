@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
+h1 {font-family: 'Roboto', sans-serif;}
+
+
+p {font-family: 'Open Sans', sans-serif;}
+
+.background {background-color: black;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.titletypo {color: green;
+    font-size: 50pt;
+    position: absolute;
+    left: 40%;
+    top: 85%;
+}
+
+
+.subtypo {color: green;
+    font-size: 16pt;
+    position: absolute;
+    left: 44%;
+    top: 93%;}
+
+
+
+
+.object {width:1%;
+    height: 65%;
+    background-color: green;
+    transition-property: background-color, transform;
+    transition-duration: 2s;
+
+    animation: opacitys;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+
+
+@-webkit-keyframes opacitys {
+    0% { 
+        opacity: 1; 
+    }
+
+    25% {
+        opacity: 0.6;
+    }
+
+    50% {opacity: 0.3;
+    }
+
+    75% {opacity: 0.6;
+    }
+
+    100% {
+         opacity: 1;
+      }
+    }
+    
+
+
+
+@-webkit-keyframes heightsize {
+    0% { 
+        height: 20%; 
+    }
+
+    50% { 
+        height: 70%; 
+    }
+
+    100% {
+        height: 20%;
+      }
+    }
